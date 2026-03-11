@@ -1,0 +1,50 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    font-size: larger !important;
+}
+
+.nav-item:hover a{
+    transform: scale(1.05)
+}
+
+#orderButton:hover {
+    transform: scale(1.10)
+}
+
+#navbar-brand {
+    font-size: x-large !important;
+}
+
+#heroSection{
+    height: 50vh;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.lifestyleasia.com%2Fwp-content%2Fuploads%2Fsites%2F6%2F2022%2F11%2F15121303%2Fmarcin-skalij-w_2vlvtgk7e-unsplash.jpeg&f=1&nofb=1&ipt=a13ea037a724357113c24fad4a683899d8e6c230ff2c6cd4dcadc566cc40f95b'); background-size: cover; 
+    background-position: center;
+    
+    
+}
+
+#cardsSection {
+    width: 18rem;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgba(3, 3, 3, 0.1);
+
+}
+
+#cardsSection:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(50, 141, 50, 0.3);
+}
+
+#cardsSection:hover img {
+    transform: scale(1.10)
+}
+
